@@ -1530,11 +1530,11 @@ margin-top: 70px;
     }
     .our-farm h6{
         margin-top: 60px;
-        margin-left: 120px;
+        margin-left: 140px;
     }
 
     .our-farm  hr {
-        margin-left: 140px;
+        margin-left: 160px;
         margin-top: 15px;
     }
     .heading1 {
@@ -1556,7 +1556,7 @@ margin-top: 70px;
     .btn.btn-common_head2{
         font-weight: bold;
         margin-top: 30px;
-        margin-left: 90px;
+        margin-left: 110px;
         color: #56B259;
         background-color: #ffffff;
         background-image: none;
@@ -1718,6 +1718,28 @@ margin-top: 70px;
         font-size: 25px;
         padding: 15px;
         margin-left: 20px;
+    }
+    .icons i {
+        margin-left: 25px;
+        font-size: 15px;
+        padding: 20px;
+        background-color: rgba(86, 178, 89, 0.1);
+        fill: #56B259;
+        color: #56B259;
+        border-radius: 50%;
+    }
+    .icons span{
+        margin-top: -40px;
+        margin-left: 100px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bold;
+    }
+    .icons p {
+        font-size: 1rem;
+        margin-left: 105px;
+        margin-bottom: 70px;
     }
     .vegetable img {
         margin-left: 8px;
