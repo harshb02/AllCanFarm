@@ -24,44 +24,47 @@
         
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="assest/css/styles.css" >
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" >
 
-    <title>All Can Farm</title>
+    <title>Available land</title>
+    <link rel="icon" type="image/gif/png" href="../img/1.png">
   </head>
   <body>
     <section id="title">
-        <div class="pic_availableland" style="background-image: url('assest/img/55.jpg');">
+        <div class="pic_availableland" style="background-image: url('../img/55.jpg');">
         <!-- <div class="pic_availableland" style="background-image: url('assest/img/23.jpg');"> -->
           <!-- Nav Bar -->
   
-          <nav class="navbar navbar-expand-lg">
-            <a style="font-size:1.8rem" class="navbar-brand" href="/">
-                <img src="assest\img\1.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                 AllFarmCan</a>
-                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
-                </button>
-            <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="/index.html">Home</a>
+          <nav class="nav">
+            <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <img src="../img/1.png" width="30" height="30" style="margin-top: 8px; margin-right: 10px;" class="d-inline-block align-top" alt="">
+                AllCanFarm
+            </div>
+            <div>
+            <input type="checkbox" id="check" style="transform: scale(1.5);">
+            <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-items">
+                <li class="nav-links">
+                <a href="../../index.html">Home</a>
+                </li>
+                <li class="nav-links">
+                <a href="../pages/ourfarm.html">Our farm</a>
+                <li class="nav-links">
+                <a href="../pages/sustainability.html">Sustainability</a>
+                </li>
+                <li class="nav-links">
+                <a href="../pages/available-land.html">Available Land Data</a>
+                </li>
+                <li class="nav-links">
+                    <a href="../pages/contact-us.html">Contact us</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="/ourfarm.html">Our Farm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/sustainability.html">Sustainability</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/available-land.html">Available Land Data</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/contact-us.html">Contact us</a>
-                    </li>
-                  </ul>
-              </div>
-              <hr>
-          </nav>
+                </ul>
+            </div>
+            </div>
+            </nav>
           <br>
           <br>
           <br>
@@ -122,14 +125,13 @@
         <section class="veggies">
             <div class="container">
                 <div class="row vegetable">
-                    <div class="col-md-8">
-                        <img src="assest/img/7.jpg" alt="">
+                    <div class="col-lg-8 col-md-12">
+                        <img src="../img/7.jpg" alt="">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-12">
                         <h2 class="color">01.</h2> <h2 class="heading">Vegetable</h2>
                         <p>Sit pharetra volutpat tristique morbi sed vitae, suspendisse morbi aliquet 
                             sapien vitae ut enim donec ut nunc, diam aliquet scelerisque scelerisque odio nunc non.</p>
-
                             <i class="fas fa-check-circle"></i>   <span>Nulla placerat viverra</span> <br>
                             <i class="fas fa-check-circle"></i>   <span>Cursus viverra</span> <br>
                             <i class="fas fa-check-circle"></i>   <span>Vitae interdum eget</span> <br>
@@ -140,10 +142,10 @@
                 </div>
 
                 <div class="row fruit">
-                    <div class="col-md-8">
-                        <img src="assest/img/8.jpg" alt="">
+                    <div class="col-lg-8 col-md-12">
+                        <img src="../img/8.jpg" alt="">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-12">
                         <h2 class="fruit_color">02.</h2> <h2 class="fruit_vegetable">Fruit</h2>
                         <p>Vel sagittis urna, porttitor at ut tortor, ut urna tempor convallis 
                             maecenas donec faucibus donec nulla a duis ligula adipiscing quisque commodo, lectus donec..</p>
@@ -182,38 +184,45 @@
     </div>
 </section>
 
-<footer>
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <h2>Get in Touch</h2>
-            <p>Ornare nunc sodales elementum, fusce dolor platea quam ac porta id dolor leo libero laoreet aliquet.</p>
+<section class="footer" id="footer">
+    <footer class="footer-area bg-f">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-3">
+                    <h2>Get in Touch</h2>
+                    <p>Ornare nunc sodales elementum, fusce dolor platea quam ac porta id dolor leo libero laoreet aliquet.</p>
+                    <ul class="list-inline f-social">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook" ></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i   class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i  class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i   class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i   class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 ">
+                    <h2>Address</h2>
+                <p>     8901 Marmora Road, Glasgow, D04 89GR  <br>
+                     (426) 460 8668   <br>
+                     kevin.price@example.com   <br>
+                </p>
+                </div>
+                <div class="col-lg-3 links">
+                    <h2>Quick Link</h2>
+                    <a>Home</a> <br>
+                    <a>Our Farm</a> <br>
+                    <a>Sustainability</a> <br>
+                    <a>Available Land Data</a> <br>
+                    <a>Contact us</a> <br>
+                </div>
+            </div>
         </div>
+        
+        <hr>
+        <p class="copyright">Copyright © 2021 AllCanFarm</p>
+        <p class="powered">Powered by AllCanFarm</p>
+        
+    </footer>
 
-        <div class="col-md-3">
-        <p class="contact">
-            8901 Marmora Road, Glasgow, D04 89GR  <br>
-            (426) 460 8668   <br>
-            kevin.price@example.com   <br>
-        </p>
-
-        </div>
-
-        <div class="col-md-3">
-            <h2>Quick Link</h2>
-            <a>Home</a> <br>
-            <a>Our Farm</a> <br>
-            <a>Sustainability</a> <br>
-            <a>Available Land Data</a> <br>
-            <a>Contact us</a> <br>
-        </div>
-    </div>
-</div>
-<hr>
-<p class="copyright">Copyright © 2021 AllCanFarm</p>
-<p class="powered">Powered by AllCanFarm</p>
-</footer>
-</div>
 
 </body>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
