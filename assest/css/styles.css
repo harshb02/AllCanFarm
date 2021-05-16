@@ -1806,6 +1806,67 @@ margin-top: 70px;
 
 }
 
+@media (width: 1440px) {
+    nav .navlinks{
+        font-family: 'Poppins',sans-serif;
+        margin-right: 85px;
+        float:right;
+        padding: 0;
+        width: 70%;
+        margin-top: -65px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .newsletter hr {
+        margin-top: 120px;
+        margin-left: 660px;
+        width: 40px;
+        border-style: solid;
+        border-color: #56B259;
+        border-width: 1.5px;
+    }
+
+    .powered {
+        margin-top: -40px;
+        margin-left: 1230px;
+    }
+}
+
+@media (width: 1698px) {
+    nav .navlinks{
+        font-family: 'Poppins',sans-serif;
+        margin-right: 85px;
+        float:right;
+        padding: 0;
+        width: 70%;
+        margin-top: -65px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .newsletter hr {
+        margin-top: 120px;
+        margin-left: 790px;
+        width: 40px;
+        border-style: solid;
+        border-color: #56B259;
+        border-width: 1.5px;
+    }
+
+    .powered {
+        margin-top: -40px;
+        margin-left: 1500px;
+    }
+
+    .form-inline {
+        border-radius: 8px 8px 8px 8px;
+        padding: 12px 16px 12px 16px;
+        margin-left: 600px;
+        margin-bottom: 100px;
+    }
+}
+
 
 
 
