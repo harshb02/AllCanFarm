@@ -419,6 +419,7 @@ nav.active{
     height: auto;
     max-width: 100%;
     margin-bottom: 60px;
+    margin-left: 10px;
 }
 
 .our-farm p{
@@ -426,6 +427,7 @@ nav.active{
     font-size: 1rem;
     color: #5F695F; 
     margin-right: 50px; 
+    margin-left: 10px;
 }
 
 .our-farm i {
@@ -433,6 +435,7 @@ color: #56B259;
 font-size: 14px;
 margin-top: 60px;
 line-height: 1.9rem;
+margin-left: 10px;
 } 
 
 
@@ -1726,18 +1729,20 @@ margin-top: 70px;
     .newsletter_picture {
         margin-top: 80px;
         background: url(https://images.unsplash.com/photo-1594740743342-7cef3a14245d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGZydWl0JTIwYmFza2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60)no-repeat center/cover;
-        height: 550px;
+        height: 580px;
         width: 104%;
         z-index: -999999999;
     }
     .layer_newsletter {
-        height: 550px;
+        height: 580px;
         width: 104%;
     }
     .newsletter h2 {
         text-align: center;
         margin-top: 20px;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .newsletter p {
         font-family: 'Noto Serif', serif;
@@ -1769,7 +1774,6 @@ margin-top: 70px;
     .btn.btn-common_head3{
         font-weight: bold;
         margin-top: 30px;
-        margin-left: 70px;
         margin-bottom: 50px;
         color: #56B259;
         background-color: #ffffff;
