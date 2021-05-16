@@ -49,7 +49,7 @@ nav .icon-burger :hover{
 nav .icon-burger .line{
     width: 30px;
     height: 5px;
-    background-color: #f6f5f5;
+    background-color: #56B259;
     margin: 5px;
     border-radius: 3px;
     transition: all .3s ease-in-out;
@@ -187,7 +187,7 @@ nav.active{
 .pic {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: 650px;
     position: relative;
 }
 .home{
@@ -617,7 +617,7 @@ line-height: 1.9rem;
 .picture {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 450px;
 }
 .ourfarm h1{
     color: #ffffff;
@@ -713,15 +713,15 @@ line-height: 1.9rem;
 .newsletter_picture {
     margin-top: 80px;
     background: url(https://images.unsplash.com/photo-1594740743342-7cef3a14245d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGZydWl0JTIwYmFza2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60)no-repeat center/cover;
-    height: 80vh;
-    width: 101%;
+    height: 420px;
+    width: auto;
 }
 .layer_newsletter {
     background-color: #181E19;
     opacity: 0.72;
     position: absolute;
     width: 101%;
-    height: 80vh;
+    height: 75%;
 }
 .newsletter hr {
     margin-top: 120px;
@@ -773,7 +773,7 @@ footer {
     border-width: 0px;
     border-top-width: 1px;
     border-top-color: #e6e6e6;
-    height: 75vh;
+    height: 450px;
 }
 
 footer h2 {
@@ -849,7 +849,7 @@ footer .list-inline {
 .pic_availableland {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 450px;
 }
 .availableland h1{
     color: #ffffff;
@@ -1033,7 +1033,7 @@ footer .list-inline {
 .picture_contact {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 450px;
 }
 .layer_contact {
     background-color: #181E19;
@@ -1205,7 +1205,7 @@ margin-top: 70px;
 .picture_sustainability {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 450px;
 }
 
 
@@ -1371,7 +1371,7 @@ margin-top: 70px;
     }
 
     .picture_contact {
-        height: 50vh;
+        height: 350vh;
     }
 
     .contact-info h2 {
@@ -1578,7 +1578,7 @@ margin-top: 70px;
         margin-left: 8px;
     }
 
-    .picture_sustainability {
+    .sustainability {
         height: 40vh;
     }
     .sustainability h1 {
@@ -1658,7 +1658,7 @@ margin-top: 70px;
     }
     .contact-socials i {
         padding: 15px;
-        margin-left: 10px;
+        margin-left: 11px;
     }
 
     .pic_availableland{
@@ -1726,12 +1726,12 @@ margin-top: 70px;
     .newsletter_picture {
         margin-top: 80px;
         background: url(https://images.unsplash.com/photo-1594740743342-7cef3a14245d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGZydWl0JTIwYmFza2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60)no-repeat center/cover;
-        height: 70vh;
+        height: 550px;
         width: 104%;
         z-index: -999999999;
     }
     .layer_newsletter {
-        height: 70vh;
+        height: 550px;
         width: 104%;
     }
     .newsletter h2 {
@@ -1782,7 +1782,7 @@ margin-top: 70px;
 
 
     footer {
-        height: 128vh;
+        height: 1050px
     }
     
     .copyright {
@@ -1815,463 +1815,6 @@ margin-top: 70px;
 
 
 
-/* @media only screen and (max-width: 600px) {
-    
-    .heading1 {
-        margin-top: 10px;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.7rem;
-        font-weight: bold;
-        text-align: center;
-        margin-left: 5px;
-    }
-    .heading2 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.7rem;
-        font-weight: bold;
-        text-align: center;
-        margin-left: 5px;
-    }
-
-    .btn.btn-common_head2{
-        font-weight: bold;
-        margin-top: 30px;
-        margin-left: 90px;
-        color: #56B259;
-        background-color: #ffffff;
-        background-image: none;
-        border-color: #56B259;
-        height: 40px;
-        width: 150px;
-    }
-    .our-farm h6{
-        margin-top: 60px;
-        margin-left: 120px;
-    }
-
-    .our-farm  hr {
-        margin-left: 140px;
-        margin-top: 15px;
-    }
-
-
-    
-.icon {
-    margin-top: -350px;
-}
-.icons_main i {
-    margin-left: 25px;
-    font-size: 15px;
-    padding: 20px;
-    background-color: rgba(86, 178, 89, 0.1);
-    fill: #56B259;
-    color: #56B259;
-    border-radius: 50%;
-}
-.icons_main .fas {
-    margin-top: 20px;
-}
-
-.icons_main span{
-    margin-top: -40px;
-    margin-left: 110px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    color: black;
-    font-weight: bold;
-}
-.icons_main p {
-    margin-left: 115px;
-    margin-bottom: 70px;
-}
-
-.newsletter h2 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2rem;
-}
-.newsletter p {
-    font-family: 'Noto Serif', serif;
-    margin-top: 60px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 1rem;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.newsletter hr {
-    margin-top: 80px;
-    margin-left: 170px;
-    width: 40px;
-    border-style: solid;
-    border-color: #56B259;
-    border-width: 1.5px;
-}
-.newsletter .form-control {
-    width: 75%;
-}
-.form-inline{
-    border-radius: 8px 8px 8px 8px;
-    padding: 12px 16px 12px 16px;
-    margin-left: 80px;
-    margin-bottom: 100px;
-} 
-.btn.btn-common_head3{
-    font-weight: bold;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    color: #56B259;
-    background-color: #ffffff;
-    background-image: none;
-    border-color: #56B259;
-    height: 40px;
-    width: 110px;
-    margin-bottom: 50px;
-}
-
-
-footer {
-    height: 135vh;
-}
-
-.copyright {
-    margin-left: 10px;
-    font-size: 1rem;
-}
-.powered {
-    font-size: 1rem;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-footer h2 {
-    margin-top: 100px;
-    font-size: 1.375rem;
-    text-align: center;
-}
-
-footer p {
-    text-align: center;
-    margin-top: 20px;
-}
-.contact { 
-    margin-top: 50px;
-    text-align: center;
-}
-
-.links {
-    text-align: center;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-.newsletter_picture {
-    margin-top: 80px;
-    background: url(https://images.unsplash.com/photo-1594740743342-7cef3a14245d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGZydWl0JTIwYmFza2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60)no-repeat center/cover;
-    height: 70vh;
-    width: 104%;
-    z-index: -999999999;
-}
-.layer_newsletter {
-    height: 90vh;
-    width: 104%;
-}
-
-.our-story img {
-    margin-top: 30px;
-    height: 50%;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.icons i {
-    margin-top: 200px;
-    font-size: 15px;
-    margin-left: 30px;
-    padding: 20px;
-    background-color: rgba(86, 178, 89, 0.1);
-    fill: #56B259;
-    color: #56B259;
-    border-radius: 50%;
-}
-.icons p {
-    margin-left: 110px;
-    margin-bottom: 60px;
-}
-
-.land_info h2{
-    margin-left: 30px;
-    font-size: 1.5rem;
-}
-
-.land_info hr {
-    margin-top: 70px;
-    margin-left: 30px;
-}
-.land_info p{
-    margin-top: 30px;
-}
-.fruit h2 {
-    margin-top: 40px;
-}
-.vegetable h2 {
-    margin-top: 40px;
-}
-.information h6{
-    margin-top:70px;
-    font-size: 0.70rem;
-    margin-left: 10px;
-}
-.information p {
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.information h2 {
-    font-size: 1.5rem;
-    margin-left: 10px;
-    line-height: 1.5rem;
-}
-.information hr {
-    margin-left: 10px;
-}
-.types h2 {
-    margin-top: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.types ul {
-    line-height: 2rem;
-    margin-top: 30px;
-    font-weight: bold;
-}
-
-.contact-info h2 {
-margin-top: 70px;
-font-size: 2rem;
-margin-left: 20px;
-}
-.contact-info span {
-    margin-left: 10px;
-}
-.contact-info p {
-    margin-left: 50px;
-}
-.contact-info i{
-    margin-left: 20px;
-}
-.pic {
-    height: 120vh;
-}
-.index_home h1{
-    font-size: 3rem;
-    margin-left: 30px;
-}
-.index_home p{
-    margin-top: 30px;
-    font-size: 1rem;
-    margin-left: 30px;
-}
-.contact-form{
-   
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 50px;
-}
-.contact-form h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: black;
-    margin-top: -50px;
-}
-
-.contact-form p {
-    font-family: 'Noto Serif', serif;
-    font-size: 0.75rem;
-    font-weight: bold;
-    color: #5F695F;
-    text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.btn.btn-common_head4 {
-    margin-top: 30px;
-    margin-left: 2px;
-    height: 40px;
-    width: 150px;
-}
-.contact h1{
-    font-size: 2.5rem;
-    margin-left: -80px;
-    font-weight: bold;
-}
-.underline_contact{
-    margin-top: 10px;
-    margin-left: 40px;
-    width: 40px;
-    border-style: solid;
-    border-color: #56B259;
-    border-width: 1.5px;
-}
-.contact-socials h2 {
-    margin-top: 50px;
-    font-size: 2rem;
-    margin-left: 20px;
-}
-
-.contact-socials p {
-    margin-left: 20px;
-    margin-bottom: 60px;
-}
-.contact-socials i {
-    padding: 15px;
-    margin-left: 10px;
-}
-.pic_availableland{
-    height: 40vh;
-}
-.availableland h1{
-    font-size: 2rem;
-    margin-left: 30px;
-}
-.underline_availableland {
-    margin-left: 30px;
-}
-
-.tab2 {
-    margin-top: 30px;
-    margin-left: 2px;
-}
-
-.btn.btn-common_head{
-    font-weight: bold;
-    margin-top: 30px;
-    margin-left: 30px;
-	color: #ffffff;
-	background-color: #56B259;
-	background-image: none;
-	border-color: #56B259;
-    height: 50px;
-    width: 170px;
-}
-
-.sustainability h1 {
-    font-size: 2.5rem;
-    margin-left: 40px;
-}
-
-.underline_sustainability {
-    margin-top: 10px;
-}
-
-.picture {
-    height: 40vh;
-}
-.ourfarm h1 {
-    font-size: 2.5rem;
-    margin-left: 30px;
-}
-.underline_ourfarm {
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-.picture_contact {
-    height: 40vh;
-}
-
-.home {
-    margin-top: 20px;
-    font-size: 0.75rem;
-    margin-left: 30px;
-    color: #56B259;
-    letter-spacing: 2px;
-}
-
-.underline {
-    margin-left: 30px;
-}
-footer a {
-    cursor: pointer;
-    margin-top: 70px;
-    color: #a4b6a4 !important;
-    line-height: 2rem;
-}
-.picture_sustainability {
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-}
-
-
-
- .icons span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    color: black;
-    font-weight: bold;
-    margin-left: 105px;
-    display: flex;
-    align-items: row;
-    margin-top: -40px;
-}
-
-
-
-.fa-facebook{
-    margin-left: 1px;
-}
-
-.fa-twitter{
-    margin-left: 1px;
-}
-
-.fa-google-plus{
-    margin-left: 1px;
-}
-
-.fa-linkedin{
-    margin-left: 1px;
-}
-
-.fa-instagram{
-    margin-left: 1px;
-}
-footer .list-inline {
-    margin-left: 30px;
-    font-size: 20px;
-    margin-top: 40px;
-    display: flex;
-}
-.nav-brand {
-    font-size: 1.8rem;
-    margin-right: 10px;
-}
-.fa-bars {
-    font-size: 27px;
-    color: #50d88fc7;
-    float: left;
-    margin-right: 25px;
-    margin-top: 18px;
-    cursor: pointer;
-  }
-  .vegetable img {
-    margin-left: 8px;
-}
-.fruit img{
-    margin-left: 8px;
-}
-.types li{
-    margin-left: 20px;
-} 
-} */
 
 
  
